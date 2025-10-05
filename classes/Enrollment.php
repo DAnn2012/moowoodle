@@ -374,12 +374,12 @@ class Enrollment {
 		
 		if ( $start_end_date ) {
 			if ( $startdate ) {
-				echo esc_html_e( "Start Date : ", 'moowoodle' ) . esc_html_e( gmdate( 'Y-m-d', $startdate ), 'moowoodle' );
+				echo esc_html__( "Start Date : ", 'moowoodle' ) . esc_html( gmdate( 'Y-m-d', $startdate );
 				print_r("<br>");
 			}
 
 			if ( $enddate ) {
-				echo esc_html_e( "End Date : ", 'moowoodle' ) . esc_html_e( gmdate( 'Y-m-d', $enddate ), 'moowoodle' );
+				echo esc_html__( "End Date : ", 'moowoodle' ) . esc_html( gmdate( 'Y-m-d', $enddate );
 			}
 		}
 	}
